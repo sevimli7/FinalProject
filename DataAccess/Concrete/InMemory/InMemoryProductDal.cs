@@ -9,7 +9,7 @@ namespace DataAccess.Concrete.InMemory
 {
     public class InMemoryProductDal : IProductDal
     {
-        List<Product> _products;
+        List<Product> _products;        //global 
         public InMemoryProductDal() //constractor ile fake veri tabanı yaptık. oracle, sql server,postgres,mongodb
         {
             _products = new List<Product> { 
