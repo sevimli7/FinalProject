@@ -5,9 +5,7 @@ using System.Text;
 
 namespace DataAccess.Abstract
 {
-    public interface IProductDal:IEntityReposityory<Product>
+    public interface ICustomerDal:IEntityReposityory<Customer>
     {
-       
-
     }
 }
